@@ -1,0 +1,45 @@
+/* Estilo del header */
+.header {
+    background-color: #f8f9fa;
+    padding: 15px 30px;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+/* Estilo de los enlaces de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+/* Enlaces de navegación */
+.nav-links a {
+    text-decoration: none;
+    color: #495057; 
+    font-size: 1.1em; 
+    font-weight: 500; 
+    padding: 8px 12px; 
+    transition: color 0.3s, transform 0.2s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+.nav-links a:hover {
+    color: #007bff; 
+    transform: translateY(-2px);
+}
+
+/* Enlaces activos */
+.nav-links a.active {
+    font-weight: 600;
+    color: #007bff; 
+    border-bottom: 2px solid #007bff;
+}

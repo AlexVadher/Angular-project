@@ -1,0 +1,15 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .map-container iframe {
+    width: 100%; /* Ajusta al ancho del contenedor */
+    max-width: 600px; /* Ancho máximo */
+    height: 450px;
+    border: 0;
+    border-radius: 8px; /* Borde redondeado para un mejor diseño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  }
+  

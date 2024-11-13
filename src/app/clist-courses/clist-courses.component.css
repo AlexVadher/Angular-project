@@ -1,0 +1,35 @@
+.courses-list {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .courses-list h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .courses-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .courses-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  .courses-list h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #007bff;
+  }
+  
+  .courses-list p {
+    font-size: 1em;
+    color: #555;
+  }
+  

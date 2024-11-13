@@ -1,0 +1,27 @@
+.about-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .about-section h2 {
+    color: #007bff;
+    font-size: 1.8em;
+  }
+  
+  .about-section p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .about-section strong {
+    font-weight: bold;
+  }
+  
+  .about-section small {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
