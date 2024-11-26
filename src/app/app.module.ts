@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { CaboutComponent } from './cabout/cabout.component';
 import { ClistCoursesComponent } from './clist-courses/clist-courses.component';
 import { CdirectionComponent } from './cdirection/cdirection.component';
+import { CcontadorComponent } from './ccontador/ccontador.component';
+import { AddComponent } from './ccontador/container/add/add.component';
+import { MinComponent } from './ccontador/container/min/min.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { CdirectionComponent } from './cdirection/cdirection.component';
     CcourseComponent,
     CaboutComponent,
     ClistCoursesComponent,
-    CdirectionComponent
+    CdirectionComponent,
+    CcontadorComponent,
+    AddComponent,
+    MinComponent
   ],
   imports: [
     BrowserModule,

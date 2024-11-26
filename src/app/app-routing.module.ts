@@ -4,9 +4,11 @@ import { CdirectionComponent } from './cdirection/cdirection.component';
 import { CaboutComponent } from './cabout/cabout.component';
 import { ClistCoursesComponent } from './clist-courses/clist-courses.component';
 import {CformComponent} from './cform/cform.component';
+import { CcontadorComponent } from './ccontador/ccontador.component';
 
 
 const routes: Routes = [
+  {path: "", component: CcontadorComponent},
   {path: 'about', component: CaboutComponent},
   {path: 'list-courses', component: ClistCoursesComponent},
   {path: 'direction', component: CdirectionComponent},

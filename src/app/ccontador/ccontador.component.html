@@ -1,0 +1,5 @@
+<div class="container-contador">
+    <h2>Contador: {{ counter }}</h2>
+    <app-add (emitAdd)="handleIncrement()"></app-add>
+    <app-min (emitMin)="handleDecrement()"></app-min>
+</div>
